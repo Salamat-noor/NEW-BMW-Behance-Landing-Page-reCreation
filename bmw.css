@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200%;
+}
+/* .container{
+    width: 100%;
+    height: 200%;
+    cursor: zoom-in;
+    background-color: rgba(245, 245, 245, 0.955);
+} */
+.main{
+    width: 100%;
+    height: 100vh;
+}
+#logo{
+    width: 100%;
+    height: 100vh;
+}
+.first-body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.first-body .black{
+    width: 50%;
+    height: 100vh;
+    background-color: #000000ef;
+    color: rgba(240, 248, 255, 0.791);
+}
+#heading-black{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: monospace;
+    letter-spacing: 3px;
+    margin-top: 100px;
+    margin-left: 50px;
+    
+}
+#bmw{
+    font-size: 45px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #eef;
+
+}
+#paragraph-black{
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-left: 50px;
+    word-spacing: 5px;
+    line-height: 30px;
+}
+#button-black{
+    width: 150px;
+    height: 50px;
+    margin-top: 80px;
+    margin-left: 50px;
+    border-radius: 100px;
+    background-color: rgba(245, 245, 245, 0.955);
+}
+#button-black:hover{
+    background-color: orange;
+    cursor:grab;
+}
+#link-black{
+    text-decoration: none;
+    color: black;
+}
+#link-black:hover{
+    background-color: orange;
+    color: red;
+    cursor:grab;
+}
+#link-twitter{
+    width: 100px;
+    height:auto;
+    margin: 20px 0 0 0;
+    border: none;
+    border-radius: 0px;
+    border-bottom: #000;
+    position: relative;
+    top: 120px;
+    right: 150px;
+}
+#link-social{
+    display: block;
+    width: 100px;
+    height: 50%;
+    border: none;
+    
+}
+.center-image{
+    width: 580px;
+    height: 280px;
+    position: absolute;
+    right: 124px;
+    margin-top: 120px;
+}
+#c-image{
+    width: 580px;
+    height: 280px;
+}
+.center-play{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 606px;
+    margin-top: 512px;
+}
+#c-play{
+    width: 50px;
+    height: 50px;
+}
+.first-body .white{
+    width: 50%;
+    height: 100vh;
+    text-align: center;
+    background-color: rgba(245, 245, 245, 0.955);
+}
+.white #car-name{
+    width: 50%;
+    height: auto;
+    font-family: cursive;
+    font-size: small;
+    color: darkorange;
+    letter-spacing: 1px;
+    position: relative;
+    top: 450px;
+    left: 180px;
+}
+.second-body{
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-top: 200px;
+}
+.silver-bmw{
+    width: 50%;
+    height: auto;
+}
+#bmw-silver{
+    width: 80%;
+    height: auto;
+    margin-left: 100px;
+}
+#bmw-silver:hover{
+    cursor: none;
+}
+.side-details{
+    width: 50%;
+    height: auto;
+    margin-left: 50px;
+}
+#heading-second-body{
+    font-family: sans-serif;
+    word-spacing: 3px;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+#paragraph-second-body{
+    font-family: sans-serif;
+    word-spacing: 3px;
+    margin-top: 50px;
+    margin-left: 50px;
+    line-height: 20px;
+}
+#button-second-body{
+    width: 150px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: black;
+}
+#button-second-body:hover{
+    background-color: silver;
+}
+#link-second-body{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+#link-second-body:hover{
+    color: black;
+}
+.title{
+    width: 100%;
+    height: 200px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin: 100px 0 0 0;
+}
+#title-break{
+    color: red;
+}
+.samples{
+    width: 60%;
+    height: auto;
+    margin: 0 0 0 250px;
+}
+.grid-item1{grid-area: head;}
+.grid-item2{grid-area: menu;}
+.grid-item3{grid-area: main;}
+.grid-item4{grid-area: right;}
+.grid-item5{grid-area: footer;}
+.grid-item6{grid-area: foot;}
+
+.samples{
+    display: grid;
+    grid-template-areas:
+        'head head head head head menu menu menu menu'
+        'head head head head head menu menu menu menu'
+        'right right right right main main main main main'
+        'right right right right footer footer foot foot foot'
+        'right right right right footer footer foot foot foot'
+        'right right right right footer footer foot foot foot';
+}
+.grid-item1{
+    width: 100%;
+    height: 250px;
+} 
+.item1{
+    width: 100%;
+    height: 250px;
+} 
+.grid-item2{
+    width: 100%;
+    height: 250px;
+} 
+.item2{
+    width: 100%;
+    height: 253px;
+} 
+.grid-item3{
+    width: 100%;
+    height: 300px;
+} 
+.item3{
+    width: 100%;
+    height: 100%;
+} 
+.grid-item4{
+    width: 105%;
+    height: 102%;
+    margin-left: -15px; 
+}
+.item4{
+    width: 100%;
+    height: 100%;
+}
+.grid-item5{
+    width: 112%;
+    height: 200px;
+} 
+.item5{
+    width: 100%;
+    height: 100%;
+} 
+.grid-item6{
+    width: 86%;
+    height: 200px;
+    margin-left: 28px ;
+} 
+.item6{
+    width: 100%;
+    height: 100%;
+} 
+.samples div img:hover{
+    width: 100%;
+    height: 100%;
+    cursor: grab;
+    
+}
+.title-two{
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+    height: 25vh;
+}
+.title-two{
+    text-align: center;
+    justify-content: center;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+}
+.model-heading-red{
+    color: red;
+    line-height: 50px;
+}
+.after-heading-red{
+    font-size: small;
+    color: #000f;
+    padding: 10px;
+}
+.model{
+    width: 100%;
+    height: 120vh;
+    text-align: center;
+}
+.model-car{
+    width: 100%;
+    height: auto;
+    border: none;
+    
+}
+.model-detail-car{
+    width: 100%;
+    height: auto;
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+}
+#heading-foot{
+    width: 40%;
+    height: 150px;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-family: sans-serif;
+    color: rgba(0, 0, 0, 0.682);
+    text-transform: uppercase;
+}
+footer table{
+    width: 30%;
+    height: 150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 0px;
+    margin-left: 10px;
+    table-layout:inherit;
+    /* border: 1px solid black; */
+    text-align: center;
+}
+footer table td{
+    font-size: 12px;
+}
+footer .right-details{
+    width: 30%;
+    height: 150px;
+    margin: 120px 0 0 25px;
+    /* text-align: center; */
+}
+.right-details a{
+    width: 200px;
+    height: 150px;
+   text-decoration: none; 
+   line-height: 40px;
+   font-family: sans-serif;
+   font-size: small;
+   color: black;
+}
+.in-foot{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    /* border: 1px solid red; */
+}
+.left{
+    width: 50%;
+    height: 100px;
+    float: left;
+    /* border: 1px solid black; */
+}
+.left img{
+    width: 100px;
+    height: auto;
+    margin: 10px 0 0 100px;
+}
+.right{
+    width: 50%;
+    height: 80px;
+    float: right;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding-top: 20px;
+}
+.right a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    text-decoration: none;
+    margin: 0 20px 0 20px;
+}
